@@ -1,0 +1,56 @@
+devices:
+  F241-38-4-CBR8-1:
+    connections:
+      cli:
+        ip: 10.122.151.12
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w6LDrcORwqU=}'
+        username: rtp1
+    os: iosxe
+    type: iosxe
+  F241-38-5-CBR8-2:
+    connections:
+      cli:
+        ip: 10.122.151.13
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w6LDrcORwqU=}'
+        username: rtp1
+    os: iosxe
+    type: iosxe
+  CBR8_CISCO1_LAB_NACIONAL:
+    connections:
+      cli:
+        ip: 10.0.252.1
+        protocol: ssh
+    credentials:
+      default:
+        password: ''
+        username: 
+    os: iosxe
+    type: iosxe
+  CBR8_TLN_CISCO9_HUB3:
+    connections:
+      cli:
+        ip: 10.0.240.9
+        protocol: ssh
+    credentials:
+      default:
+        password: ''
+        username: 
+    os: iosxe
+    type: iosxe
+  CBR8_TLN_CISCO15_HUB3:
+    connections:
+      cli:
+        ip: 10.0.240.15
+        protocol: ssh
+    credentials:
+      default:
+        password: ''
+        username: 
+    os: iosxe
+    type: iosxe
